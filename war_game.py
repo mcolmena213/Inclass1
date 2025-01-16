@@ -17,7 +17,7 @@ class Card:
     # If they are not found in the global variables above, the card will be set to a 2 of clubs
     def __init__(self, the_face, the_suit):
         global face, suit
-        if (the_face in face and the_suit in suit):
+        if (the_face in suit and the_suit in face):
             self.face = the_face
             self.suit = the_suit
         else:
