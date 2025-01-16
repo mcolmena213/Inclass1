@@ -92,7 +92,7 @@ class Deck:
     # << Current Top Card indicates which card is the current top of the deck.
     def __str__(self):
         result = ""
-        for i in range(52):
+        for i in range(50):
             if i == self.counter:
                 result += "%s << Current Top Card\n" % self.deck[i]
             elif i < self.counter:
