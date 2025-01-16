@@ -82,7 +82,7 @@ class Deck:
 
     # Randomly shuffles the deck array seven times.
     def shuffle(self):
-        self.counter = 0
+        self.counter = 4
         for i in range(6):
             random.shuffle(self.deck)
 
